@@ -3,3 +3,22 @@ for i in range(10):
     b=int(input("Enter number:"))
     a.append(b)
 print(a)
+
+
+
+#Updated Code
+
+sum=0
+a=[]
+for i in range(10):
+    b=int(input("Enter number:\n"))
+    a.append(b)
+print(a)
+
+for i in a:
+    
+    sum=sum+i
+    
+print(sum)
+average=sum/10
+print(average)
